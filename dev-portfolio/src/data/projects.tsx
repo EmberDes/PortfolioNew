@@ -20,7 +20,7 @@ export const projects: Project[] = [
   },
   {
     id: "3",
-    title: "API Service",
+    title: "URL Shortener Service",
     description: "RESTful API built with Python and FastAPI.",
     techStack: ["Python", "Flask", "React","PostgreSQL"],
     githubUrl: "https://github.com/EmberDes/UrlShortner#",
