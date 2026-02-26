@@ -7,7 +7,8 @@ export default function Navbar() {
   return (
     <nav className="border-b border-gray-200 dark:border-gray-700">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">DevPortfolio</h1>
+        <button onClick={() => window.location.href = '/'}
+        className="text-xl font-bold">DevPortfolio</button>
 
         <div className="flex gap-6 text-sm font-medium items-center">
           {["/", "/about", "/projects"].map((path) => {
