@@ -4,12 +4,14 @@ import ProjectCard from "../components/ui/ProjectCard"
 
 
 
-useEffect(() => {
-  document.title = "Home | Shashwat Singh"
-}, [])
+
 
 
 export default function Projects() {
+  useEffect(() => {
+    document.title = "Home | Shashwat Singh"
+  }, [])
+
   const [filter, setFilter] = useState("all")
 
   const filteredProjects = useMemo(() => {

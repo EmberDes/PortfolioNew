@@ -1,10 +1,16 @@
 import { motion } from "framer-motion"
 import { useEffect } from "react"
 
-useEffect(() => {
+
+export default function About() {
+  
+  
+  useEffect(() => {
   document.title = "About | Shashwat Singh"
 }, [])
-export default function About() {
+
+
+
   return (
     
     <div className="max-w-4xl mx-auto">

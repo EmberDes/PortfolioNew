@@ -4,11 +4,13 @@ import { skills } from "../data/skills"
 import { useEffect } from "react"
 
 
-useEffect(() => {
-  document.title = "Home | Shashwat Singh"
-}, [])
+
 
 export default function Home() {
+  
+  useEffect(() => {
+  document.title = "Home | Shashwat Singh"
+}, [])
   return (
     <div className="relative flex flex-col items-center justify-center text-center py-24 overflow-hidden">
       
