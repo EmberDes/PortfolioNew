@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Navbar from "./navbar";
-import Mascot from "../common/mascot"
+import Mascot from "../common/Mascot"
 import ScrollProgress from "../common/ScrollProgress"
 
 interface LayoutProps {
